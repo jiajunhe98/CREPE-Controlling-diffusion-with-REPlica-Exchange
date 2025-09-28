@@ -15,3 +15,4 @@ The structure is as follows:
     └── reward-tilting
         - prompted reward-tilting on ImageNet
 ```
+The required environment may differ for each application. Please refer to their own folder.
