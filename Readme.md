@@ -5,14 +5,16 @@ This repo contains various applications of CREPE.
 The structure is as follows:
 
 ```
-├── applications
+applications
     ├── tempering
-    │    - code for inference-time tempering for Boltzmann sampling
+    │        - code for inference-time tempering for Boltzmann sampling
     ├── stitching
-    │    - code for stitching trajectories in the maze
+    │        - code for stitching trajectories in the maze
     ├── cfg
-    │    - debiasing cfg on ImageNet
-    └── reward-tilting
-        - prompted reward-tilting on ImageNet
+    │        - debiasing cfg on ImageNet
+    ├── reward-tilting
+    │        - prompted reward-tilting on ImageNet
+    └── ctmc
+            - debiasing cfg for CTMC models
 ```
 The required environment may differ for each application. Please refer to their own folder.
