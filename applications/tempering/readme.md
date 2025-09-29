@@ -26,7 +26,7 @@ python main.py --target a4/a6/aldp
 ## 📐Evaluation TVD, W2 and TICA MMD
 
 
-We include evaluation code in the ```eval.ipynb``` notebook.
+We include evaluation code in the [```eval.ipynb```](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/blob/main/applications/tempering/eval.ipynb) notebook.
 
 
 
