@@ -20,3 +20,4 @@ applications
 The required environment may differ for each application. Please refer to their own folder.
 
 🚧The code for cfg/ctmc is still under construction. 
+If you need anything on these tasks please leave an issue or email us.
