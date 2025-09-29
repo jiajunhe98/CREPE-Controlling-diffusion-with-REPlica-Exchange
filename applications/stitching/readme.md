@@ -18,16 +18,16 @@ We provide two notebooks for this application.
 
 1. [```maze_diffusion_official_task.ipynb```](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/blob/main/applications/stitching/maze_diffusion_official_task.ipynb) stitches trajectories for 5 tasks consider in [CompDiffuser](https://github.com/devinluo27/comp_diffuser_release).
 
-You can also choose to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://drive.google.com/file/d/1_NoW59Oq2DIPxl4ZiFahqKXsCLXmMsl8/view?usp=sharing](https://colab.research.google.com/github/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/blob/main/applications/stitching/colab/maze_diffusion_official_task_colab.ipynb))
+<!-- You can also choose to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://drive.google.com/file/d/1_NoW59Oq2DIPxl4ZiFahqKXsCLXmMsl8/view?usp=sharing](https://colab.research.google.com/github/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/blob/main/applications/stitching/colab/maze_diffusion_official_task_colab.ipynb)) -->
 
 
-2. Coming soon: ```maze_diffusion_online .ipynb``` stitches trajectories to bridge between two points first, and then a new reward is added to enforce the trajectories to go through an intermediate points.
+2. Coming soon: [```maze_diffusion_online .ipynb```](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/blob/main/applications/stitching/maze_diffusion_online.ipynb) stitches trajectories to bridge between two points first, and then a new reward is added to enforce the trajectories to go through an intermediate points.
 
 
 
 
 
-## Visualisation and Evaluation Success Rate
+## Visualisation
 
 Coming soon
 
