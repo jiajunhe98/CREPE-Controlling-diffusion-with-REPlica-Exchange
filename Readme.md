@@ -1,7 +1,14 @@
 # CREPE🥞: Controlling diffusion with REPlica Exchange
 
 CREPE🥞 is an inference-time control algorithm for diffusion models. 
-This repo contains various applications of CREPE. 
+This repo contains various applications of CREPE:
+- Tempering with CREPE for Boltzmann Sampling
+- Trajectory stitching with CREPE for maze
+- Debiasing CFG with CREPE for image generation
+- Prompted reward-tilting with CREPE  for image generation
+- Debiasing CFG with CREPE on CTMC
+
+  
 The structure is as follows:
 
 ```
