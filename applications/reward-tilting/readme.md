@@ -5,7 +5,7 @@ Our code is based on the EDM2 repo directly.  Therefore, please clone the repo f
 
 ### 👉Tips for installing ImageReward 
 
-Skip this section if you have ImageRward correctly installed; otherwise, here are some tip.
+Skip this section if you have ImageRward correctly installed; otherwise, here are some tip (unfinished).
 
 
 

@@ -49,6 +49,7 @@ def main():
     else:
         raise ValueError(f"Unknown target: {args.target}")
 
+    # load data (we also *5 to make training easier)
     data = torch.from_numpy(remove_mean(mdtraj.load(args.high_data_path).xyz, n_particles, 3)).to(device).reshape(-1, n_particles * 3) * 5
     data_low = torch.from_numpy(remove_mean(mdtraj.load(args.low_data_path).xyz, n_particles, 3)).to(device).reshape(-1, n_particles * 3) * 5
 

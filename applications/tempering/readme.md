@@ -26,7 +26,7 @@ python main.py --target a4/a6/aldp
 ## 📐Evaluation TVD, W2 and TICA MMD
 
 
-coming soon!
+We include evaluation code in the ```eval.ipynb``` notebook.
 
 
 

@@ -27,7 +27,7 @@ We provide two notebooks for this application.
 
 
 
-## 📊Visualisation
+## 📊Visualisation and Evaluation Success Rate
 
 [```maze_visualise.ipynb```](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/blob/main/applications/stitching/maze_visualise.ipynb) contains the code for visualisation of our trajectory.
 
