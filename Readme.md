@@ -1,6 +1,6 @@
-# CREPE: Controlling diffusion with REPlica Exchange
+# CREPE🥞: Controlling diffusion with REPlica Exchange
 
-CREPE is an inference-time control algorithm for diffusion models. 
+CREPE🥞 is an inference-time control algorithm for diffusion models. 
 This repo contains various applications of CREPE. 
 The structure is as follows:
 
