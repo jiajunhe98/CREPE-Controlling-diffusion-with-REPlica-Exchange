@@ -1,18 +1,18 @@
 # Stitching Trajectories with CREPE
 
 
-### Environment
+## Environment
 
 We save the required data trajectories in numpy, and hence the environment only requires basic packages (e.g., ```matplotlib```, ```numpy```) and ```pytorch```.
 
-### Data preparation
+## Data preparation
 
 Please download the short trajectory data and our pretrained network from [this link](https://drive.google.com/file/d/1lOyuDadwpcaL2_bRvfG6JYTvxhfUOctN/view?usp=sharing) and [this link](https://drive.google.com/file/d/1uak2ofiT-wp1S-syOPxSq2VXIsIE2R2L/view?usp=sharing).
 
 Please put these files in this folder.
 
 
-### Sampling
+## Sampling
 
 We provide two notebooks for this application.
 
@@ -27,7 +27,7 @@ You can also choose to [![Open In Colab](https://colab.research.google.com/asset
 
 
 
-### Visualisation and Evaluation Success Rate
+## Visualisation and Evaluation Success Rate
 
 Coming soon
 
