@@ -11,10 +11,12 @@ applications
     ├── stitching
     │        - code for stitching trajectories in the maze
     ├── cfg
-    │        - debiasing cfg on ImageNet
+    │        - debiasing cfg on ImageNet (coming soon!)
     ├── reward-tilting
-    │        - prompted reward-tilting on ImageNet
+    │        - prompted reward-tilting on ImageNet (coming soon!)
     └── ctmc
-            - debiasing cfg for CTMC models
+            - debiasing cfg for CTMC models (coming soon!)
 ```
 The required environment may differ for each application. Please refer to their own folder.
+
+🚧The code for reward/cfg/ctmc is still under construction. 
