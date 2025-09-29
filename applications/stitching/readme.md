@@ -16,7 +16,7 @@ Please put these files in this folder.
 
 We provide two notebooks for this application.
 
-1. ```maze_diffusion_official_task.ipynb``` stitches trajectories for 5 tasks consider in [CompDiffuser](https://github.com/devinluo27/comp_diffuser_release).
+1. [```maze_diffusion_official_task.ipynb```](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/blob/main/applications/stitching/maze_diffusion_official_task.ipynb) stitches trajectories for 5 tasks consider in [CompDiffuser](https://github.com/devinluo27/comp_diffuser_release).
 
 You can also choose to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://drive.google.com/file/d/1_NoW59Oq2DIPxl4ZiFahqKXsCLXmMsl8/view?usp=sharing](https://colab.research.google.com/github/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/blob/main/applications/stitching/colab/maze_diffusion_official_task_colab.ipynb))
 
