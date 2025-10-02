@@ -11,7 +11,7 @@ Skip this section if you have ImageRward correctly installed; otherwise, here ar
 
 ## ✨Sampling
 ```
-python crepe-guidance-cfg-reward.py ---image_net 64/512 ---class_idx 417/723/496/468/791
+python crepe-guidance-cfg-reward.py --img_net 64/512 --class_idxs 417/723/496/468/791
 ```
 
 
