@@ -1,4 +1,5 @@
 import torch
+import numpy as np
 
 def center_of_mass_batch(positions, masses=None):
     """Compute the center of mass for a batch of positions."""

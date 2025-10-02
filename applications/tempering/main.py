@@ -3,7 +3,9 @@ Inference time tempering with CREPE
 '''
 
 import torch
-from energy.a4 import A4, A6, AldpBoltzmann
+from energy.a4 import A4
+from energy.a6 import A6
+from energy.aldp import AldpBoltzmann
 from network.egnn import EGNN_dynamics_AD2, EGNN_dynamics_AD4, EGNN_dynamics_AD6, remove_mean
 import numpy as np
 import matplotlib.pyplot as plt
@@ -27,8 +29,8 @@ def main():
     parser.add_argument('--n_steps', type=int, default=201)                                          # number of steps
     parser.add_argument('--n_samples', type=int, default=50000)                                      # number of samples
     parser.add_argument('--target', type=str, default='a4', choices=['a4', 'a6', 'aldp'])            # target 
-    parser.add_argument('--high_data_path', type=str, default='trajectory_1.0_800.0.h5')             # high temperature data path
-    parser.add_argument('--low_data_path', type=str, default='trajectory_1.0_500.0.h5')              # low temperature data path, used only for visualisation
+    parser.add_argument('--high_data_path', type=str, default='trajectory_a4_800.0.h5')             # high temperature data path
+    parser.add_argument('--low_data_path', type=str, default='trajectory_a4_500.0.h5')              # low temperature data path, used only for visualisation
     parser.add_argument('--net_path', type=str, default='net_800k.pt')                       # ema net path
 
     args = parser.parse_args()
@@ -318,6 +320,8 @@ def main():
     ALL_SAMPLES = []
     # MASK1 = []
     # MASK2 = [] # one can also check the swap rate (sanity check it is non 0 anywhere)
+
+    print('Running APT...')
 
     for total_idx in tqdm(range(args.n_samples // 2)):
         all_samples, MASKS1, MASKS2, NEW_SAMPLES = APT_control(ema_net, 

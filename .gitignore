@@ -1,0 +1,10 @@
+*__pycache__*
+
+applications/stitching/all_traj.npy
+applications/stitching/traj_net.pt
+applications/stitching/*.pt
+applications/tempering/*.pt
+applications/tempering/*.h5
+applications/tempering/test.ipynb
+applications/tempering/crepe_fwd0.0_bwd1.0_targeta4_final_temp500.npy
+applications/tempering/hist.png
