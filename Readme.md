@@ -17,11 +17,11 @@ Example of CREPE for prompted reward-tilting on ImageNet-512:
 
 
 This repo contains various applications of CREPE:
-- Tempering on Boltzmann distribution of Alanine Di/Tetra/Hexa-peptide
-- Trajectory stitching for maze
-- Debiasing CFG for image generation
-- Prompted reward-tilting for image generation
-- Debiasing CFG on CTMC
+- [Tempering on Boltzmann distribution of Alanine Di/Tetra/Hexa-peptide](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/tree/main/applications/tempering)
+- [Trajectory stitching for maze](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/tree/main/applications/stitching)
+- [Debiasing CFG for image generation](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/tree/main/applications/cfg)
+- [Prompted reward-tilting for image generation](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/tree/main/applications/reward-tilting)
+- Debiasing CFG on CTMC (Coming soon!)
 
   
 The structure is as follows:
