@@ -40,3 +40,14 @@ applications
             - debiasing cfg for CTMC models (🚧under construction, coming soon!)
 ```
 The required environment may differ for each application. Please refer to their own folder.
+
+
+### Reference
+```
+@article{he2025crepe,
+  title={CREPE: Controlling Diffusion with Replica Exchange},
+  author={He, Jiajun and Jeha, Paul and Potaptchik, Peter and Zhang, Leo and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel and Du, Yuanqi and Syed, Saifuddin and Vargas, Francisco},
+  journal={arXiv preprint arXiv:2509.23265},
+  year={2025}
+}
+```
