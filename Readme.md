@@ -1,7 +1,9 @@
 # CREPE🥞: Controlling diffusion with REPlica Exchange
 
-[![ICLR 2026](https://img.shields.io/badge/ICLR-202026-6f42c1.svg)](#)
+[![ICLR 2026](https://img.shields.io/badge/ICLR-2026-6f42c1.svg)](#)
 [![arXiv](https://img.shields.io/badge/arXiv-2509.23265-b31b1b.svg)](https://arxiv.org/abs/2509.23265)
+[![Website](https://img.shields.io/website?label=Live%20Demo&url=https%3A%2F%2Fcrepe-diffusion.github.io%2F)](https://crepe-diffusion.github.io/)
+
 
 CREPE🥞 is an inference-time control algorithm for diffusion models (both Gaussian diffusion and CTMC!). 
 
