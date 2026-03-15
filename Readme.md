@@ -24,7 +24,7 @@ This repo contains various applications of CREPE:
 - [Trajectory stitching for maze](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/tree/main/applications/stitching)
 - [Debiasing CFG for image generation](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/tree/main/applications/cfg)
 - [Prompted reward-tilting for image generation](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/tree/main/applications/reward-tilting)
-- Debiasing CFG on CTMC (Coming soon!)
+- [Debiasing CFG on CTMC](https://github.com/jiajunhe98/CREPE-Controlling-diffusion-with-REPlica-Exchange/tree/main/applications/ctmc)
 
   
 The structure is as follows:
@@ -40,7 +40,7 @@ applications
     ├── reward-tilting
     │        - prompted reward-tilting on ImageNet
     └── ctmc
-            - debiasing cfg for CTMC models (🚧under construction, coming soon!)
+            - debiasing cfg for CTMC models 
 ```
 The required environment may differ for each application. Please refer to their own folder.
 
